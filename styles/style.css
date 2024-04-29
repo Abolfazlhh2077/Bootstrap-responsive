@@ -1,0 +1,80 @@
+/* 1. don't modify this style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 2. we use :root for default variables */
+:root {
+    /* --"somekey-attr": "somevalue" i.e : */
+    --black-700: #000;
+    --blueGradiant: #3b2a9f;
+    --primary-100: #5141aa;
+    --secondary: #fa8305;
+    --box_bg: #1c140f;
+}
+
+@font-face {
+    font-family: PoppinsThin;
+    src: url("Poppins-Thin.ttf");
+}
+
+@font-face {
+    font-family: PoppinsRegular;
+    src: url("Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: PoppinsMedium;
+    src: url("Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: PoppinsSemiBold;
+    src: url("Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url("Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: PoppinsExtraBold;
+    src: url("Poppins-ExtraBold.ttf");
+}
+
+li.nav-item {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.showcase {
+    background-color: var(--blueGradiant);
+}
+
+.showcase-button {
+    border-radius: 40px;
+    background-color: var(--secondary);
+    border: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 22px;
+}
+
+.showcase-title {
+    font-size: 45px;
+    font-family: PoppinsExtraBold;
+    line-height: 60px;
+}
+
+.trending-games {
+    background-color: var(--blueGradiant);
+}
+
+
